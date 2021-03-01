@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:10
 WORKDIR /home/default
 COPY ./package.json /home/default/package.json
 RUN npm install -q

@@ -2,7 +2,8 @@
 var app = express();
 app.get('/', function (req, res) {
   res.status(200).json({
-    status: 200, 
+    status: 200,
+    applicationVersion: '1.0', 
     message:'Hello from Nilesh Bhujbal.!'
   });
 });
